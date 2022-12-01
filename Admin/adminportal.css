@@ -1,0 +1,148 @@
+/* Navbar */
+.navbar{
+    background-color: #395b64 !important;
+    /* height: 80px; */
+    padding: 0px;
+  }
+  .dropdown-menu{
+    /* margin-top: 20px; */
+    background-color: #a5c9ca !important;
+    /* display: inline-block; */
+    /* width: 300px; */
+    text-align: center;
+    
+  }
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+  .navbar-brand img{
+    
+    height: 50px;
+    width: 50px;
+  }
+  
+  .nav-item a{
+  
+    position: relative;
+    text-decoration: none !important;
+    /* font-family: 'Poppins',sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white  !important;
+    font-weight: bolder !important;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  .nav-item a:after{
+    content: "";
+    position: absolute;
+    background-color: #2c3333;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s ease;
+    
+    /* margin: 10px; */
+   
+  }
+  
+  
+  .nav-item a:hover:after{
+    width: 100%;
+  }
+  
+  
+  .portal-btn{
+    font-weight: bolder;
+    color: #2c3333;
+    border: 2px solid #395b64;  
+    background-color: #e7f6f2
+  }
+  .portal-btn:hover{
+    border: 2px solid #a5c9ca ;
+    background-color: #2c3333 !important;
+    color: #e7f6f2;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*     */
+  
+  .sidebar{
+    background-color:#395b64;
+    color: white;
+    /* padding: 50px; */
+    
+  }
+  
+  
+  .teacherPortalSec .col-3, .teacherPortalSec .col-9 {
+    height: 100vh;
+    overflow: auto;
+  }
+  /*  */
+  table{
+    margin-top: 50px;
+    width: 800px;
+    padding: 50px;
+    
+  }
+
+  th,td,tr{
+    border: 2px solid black;
+  }
+
+  @media only screen and (max-width: 768px) {
+    table{
+        margin-top: 50px;
+        width: 300%;
+        padding: 50px;
+        
+      }
+  }
+  @media only screen and (max-width: 1000px) {
+    table{
+        margin-top: 50px;
+        width: 200%;
+        padding: 50px;
+        
+      }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    table{
+        margin-top: 50px;
+        width: 100%;
+        padding: 50px;
+        
+      }
+  }
+  
+
+  .colName:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  /*  */
+    /* footer */
+    .section8{
+      /* margin-top: 100px; */
+      background-color: #a5c9ca;
+    
+    }
+    .section8 a{
+      text-decoration: none;
+      color: black;
+    }
+    
+    .footer-img{
+    display: flex;
+    justify-content: center;
+    }
+    
